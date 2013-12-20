@@ -1,0 +1,8 @@
+# Ignore Directory created by tools
+node_modules/
+bower_components/
+
+
+
+build
+node_modules

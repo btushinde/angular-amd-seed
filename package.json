@@ -1,0 +1,42 @@
+{
+  "name": "bb-spree-frontend",
+  "version": "0.1.0",
+  "description": "AngularJS Spree frontend",
+  "repository": {},
+  "keywords": [],
+  "author": "SB",
+  "license": "MIT",
+  "bugs": {},
+  "dependencies": {
+    "express": "3.x",
+    "coffee-script": "1.6.x",
+    "static-route": "0.0.11",
+    "connect": "~2.11.0",
+    "nodemon": "~0.7.10",
+    "jade": "~0.35.0"
+  },
+  "devDependencies": {
+    "load-grunt-tasks": "~0.1.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-bower-requirejs": "~0.7.1",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-jade": "~0.8.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-stylus": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-open": "~0.2.2",
+    "grunt-coffeelint": "0.0.7",
+    "grunt-shell": "~0.4.0",
+    "grunt-notify": "~0.2.13",
+    "grunt-concurrent": "~0.4.0",
+    "grunt-nodemon": "~0.1.1",
+    "grunt-cli": "~0.1.11"
+  },
+ "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  }
+}
